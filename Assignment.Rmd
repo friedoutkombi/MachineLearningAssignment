@@ -14,7 +14,7 @@ The data comes from volunteers performing exercises whilst wearing fitness track
 The goal of the project is to predict the manner in which the 6 volunteers did the exercise. This is the "classe" variable in the training set. To do this we we will look at any of the other variables to build our prediction model.
 
 # Load Packages
-```{r message=FALSE}
+```{r message=FALSE, error=FALSE, warning=FALSE}
 library(randomForest)
 library(caret)
 library(rpart)
@@ -146,6 +146,7 @@ test.results<-data.frame(
                          "SVM"=c(svm.accuracy,svm.error),
                          row.names=c("Model Accuracy","Out-of-sample-error")
                          )
+test.results
 ```
 
 We can see our best result was the Random Forest Model with a model accuracy of 0.99184.
