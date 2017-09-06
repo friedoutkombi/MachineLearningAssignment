@@ -22,7 +22,7 @@ library(rattle)
 library(e1071)
 ```
 
-#Load Dataset
+# Load Dataset
 We will be loading the two datasets directly from the url's provided in the project brief.
 ```{r results='hide'}
 #set the seed so the following code will be reproducible.
