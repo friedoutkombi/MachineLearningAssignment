@@ -5,7 +5,7 @@ date: "4 September 2017"
 output: html_document
 ---
 
-#Dataset & Aim 
+# Dataset & Aim 
 The dataset for our project can be found from the source [here](http://groupware.les.inf.puc-rio.br/har).
 The training & testing data can be directly found [here](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv) & [here](https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv) respectively.
 
