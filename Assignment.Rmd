@@ -2,7 +2,7 @@
 title: 'Practical Machine Learning - Course Project: Fitness Data'
 author: "Anonymous"
 date: "4 September 2017"
-output: pdf_document
+output: html_document
 ---
 
 # Dataset & Aim 
